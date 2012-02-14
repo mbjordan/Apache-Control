@@ -9,12 +9,12 @@ I created a2control because I grew tired of the endless typing of the reload dir
 `a2restart` is a shortcut to `# /etc/init.d/apache2 restart` 
  
 `a2enload example.com` is the same as typing:  
- ```# a2ensite example.com
-  # /etc/init.d/apache2 reload```  
+```# a2ensite example.com```
+```# /etc/init.d/apache2 reload```  
 
 `a2disload example.com` is the same as typing:  
- ```# a2dissite example.com
-  # /etc/init.d/apache2 reload``` 
+```# a2dissite example.com```
+```# /etc/init.d/apache2 reload``` 
 
 * * *
 

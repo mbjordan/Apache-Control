@@ -1,14 +1,14 @@
-# a2control
+# Apache Control
 
 `a2ensite` and `a2dissite` are invaluable tools when working with virtual sites in Apache. But having to type `/etc/init.d/apache2 reload` is a pain in the A@#, to say the least.
 
-I created a2control because I grew tired of the endless typing of the reload directive. a2control gives you 4 new commands that make this process a lot easier!
+I created Apache Control because I grew tired of the endless typing of the reload directive. Apache Control gives you 4 new commands that make this process a lot easier!
 
 ## Installation
 
 ### Easy, very easy.
 
-To install a2control, choose (and go to) a directory to permanantly store the files and run the following commands:
+To install Apache Control, choose (and go to) a directory to permanantly store the files and run the following commands:
 
 `# wget https://github.com/matthewbj/Apache-Control/tarball/master -O apache-control.tar.gz`
 
@@ -20,11 +20,11 @@ To install a2control, choose (and go to) a directory to permanantly store the fi
 
 Done!
 
-## Use
+## Commands
 
-`a2reload` is a shortcut to `# /etc/init.d/apache2 reload` 
+Use `a2reload` as a shortcut to `# /etc/init.d/apache2 reload` 
  
-`a2restart` is a shortcut to `# /etc/init.d/apache2 restart` 
+Use `a2restart` as a shortcut to `# /etc/init.d/apache2 restart` 
  
 `a2enload example.com` is the same as typing:  
 ```# a2ensite example.com```
@@ -34,7 +34,7 @@ Done!
 ```# a2dissite example.com```
 ```# /etc/init.d/apache2 reload``` 
 
-For help using a2control in the shell, just type `# a2control` for a list of commands and uses.
+For help using Apache Control in the shell, just type `# a2control` for a list of commands and uses.
 
 * * *
 

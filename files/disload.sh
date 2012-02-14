@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [ "$1" == '' ]; then
-	echo "FATAL: A virtual website configuration MUST be provided in order to use a2disload"
+	echo "FATAL: A virtual website configuration file MUST be provided in order to use a2disload"
 	echo "Use: # a2disload example.com"
 else
 	a2dissite $1

@@ -4,18 +4,18 @@
 
 I created a2control because I grew tired of the endless typing of the reload directive. a2control gives you 4 new commands that make this process a lot easier!
 
-`a2reload` 
-> Shortcut to `# /etc/init.d/apache2 reload`  
-`a2restart` 
-> Shortcut to `# /etc/init.d/apache2 restart`  
-`a2enload example.com` 
-> Same as typing:  
-> `# a2ensite example.com<br>
-  # /etc/init.d/apache2 reload`   
-`a2disload example.com` 
-> Same as typing:  
-> `# a2dissite example.com<br>
-  # /etc/init.d/apache2 reload` 
+`a2reload` is a shortcut to `# /etc/init.d/apache2 reload` 
+ 
+`a2restart` is a shortcut to `# /etc/init.d/apache2 restart` 
+ 
+`a2enload example.com` is the same as typing:  
+ ```# a2ensite example.com
+  # /etc/init.d/apache2 reload```  
+
+`a2disload example.com` is the same as typing:  
+ ```# a2dissite example.com
+  # /etc/init.d/apache2 reload``` 
+
 * * *
 
 ## Installation

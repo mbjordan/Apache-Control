@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "How to use a2control"
+echo "How to use Apache Control"
 echo ""
 echo "Use \"a2reload\" to reload the apache configuration."
 echo "Use \"a2restart\" to restart the apache server."

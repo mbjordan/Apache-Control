@@ -10,11 +10,11 @@ I created Apache Control because I grew tired of the endless typing of the reloa
 
 To install Apache Control, choose (and go to) a directory to permanantly store the files and run the following commands:
 
-`# wget https://github.com/matthewbj/Apache-Control/tarball/master -O apache-control.tar.gz`
+`# wget https://github.com/mbjordan/Apache-Control/tarball/master -O apache-control.tar.gz`
 
 `# tar -zxf apache-control.tar.gz`
 
-`# cd matthewbj-Apache-Control-xxxxxxx`
+`# cd mbjordan-Apache-Control-xxxxxxx`
 
 `# bash install.sh`
 
